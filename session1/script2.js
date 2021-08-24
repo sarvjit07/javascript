@@ -55,21 +55,22 @@
                 //Removing Element
 
 
-                const body = document.body
-                const div=document.querySelector("div")
-                const spanhi=document.querySelector("#hi")
-                const spanbye=document.querySelector("#bye")
-                // spanbye.remove()
-                //        // REMOVING ELEMENT ADDED
-                // div.append(spanbye)
-                // div.removeChild(spanhi)
-                spanhi.remove()
-
-
-
-                // //Modifying Element Attributes
                 // const body = document.body
                 // const div=document.querySelector("div")
                 // const spanhi=document.querySelector("#hi")
                 // const spanbye=document.querySelector("#bye")
-                // console.log(spanhi.getAttribute("id"))
+                // // spanbye.remove()
+                // //        // REMOVING ELEMENT ADDED
+                // // div.append(spanbye)
+                // // div.removeChild(spanhi)
+                // spanhi.remove()
+
+
+
+                // //Modifying Element Attributes
+                const body = document.body
+                const div=document.querySelector("div")
+                const spanhi=document.querySelector("#hi")
+                const spanbye=document.querySelector("#bye")
+                console.log(spanhi.getAttribute("id"))
+    
