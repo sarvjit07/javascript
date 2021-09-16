@@ -8,17 +8,27 @@
 </head>
 <body>
     
- <script type="text/javascript">
+ <script>
     
-    var aProperty;
-    document.write("Navigator Object Properties<br /> ");
+    // var aProperty;
+    // document.write("Navigator Object Properties<br /> ");
     
-    for (var aProperty in chrome) {
-    document.write(aProperty);
-    document.write("<br />");
+    // for (var aProperty in chrome) {
+    // document.write(aProperty);
+    // document.write("<br />");
+    // }
+    // document.write ("Exiting from the loop!");
+    // //-->
+    const symbols={
+        yt: "Youtube",
+        ig:"Instagram",
+        fb:"Facebook",
+        lco:"learnCodeOnline.in",
+    };
+    for(const n in symbols){
+      document.write(`key is: ${n} and value is:${symbols[n]}`);
     }
-    document.write ("Exiting from the loop!");
-    //-->
     </script>
 </body>
 </html>
+
